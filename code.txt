@@ -2,3 +2,4 @@ class Booktest(models.Model):
     btitle = models.CharField(max-length=20)
     bcomment = models.IntegerField(default=0)
     bread = models.IntegerField(default=0)
+    name=models.CharField(max-length=20)
