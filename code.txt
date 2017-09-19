@@ -1,0 +1,3 @@
+class Booktest(models.Model):
+    btitle = models.CharField(max-length=20)
+    bcomment = models.IntegerField(default=0)
